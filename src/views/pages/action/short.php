@@ -30,7 +30,7 @@ if (LinksDB::checkUrl($link, $db)){
         }
     }
 
-    $userID = 0;
+    $userID = null;
     if (isset($_SESSION['user_id'])){
         $userID = $_SESSION['user_id'];
     }

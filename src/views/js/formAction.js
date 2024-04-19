@@ -62,6 +62,7 @@ $('.register-form').submit(function (e){
                     }else {
                         console.log('Регистрация')
                         registerUser(login, pas1)
+                        window.location.href = "/login";
                     }
                 }else {
                     errAdd('Пароли не совпадают')
